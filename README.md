@@ -6,7 +6,6 @@ Frontend coding challenge for STIT. App for displaying nearby events via Yelp Fu
 $ npm install yelp-fusion --save
 $ npm install hbs
 $ npm install express
-$ npm install yelp-fusion
 $ npm install url-slugs
 $ npm install @google/maps
 ```
