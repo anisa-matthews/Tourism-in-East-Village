@@ -1,0 +1,14 @@
+<div class='event-page'>
+    {{#if message}}
+    <h3>"Sorry, there was an error with loading this event."</h3>
+    {{/if}}
+
+    {{#if event}}
+    <h2>{{this.name}}</h2>
+        <ul>
+            <li>{{this.time}}</li>
+            <li>{{this.location}}</li>
+            <li>{{this.cost}}</li>
+        </ul>
+    {{/if}}
+</div>
