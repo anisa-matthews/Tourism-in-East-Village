@@ -1,7 +1,7 @@
 # Tourism-in-East-Village
 Coding challenge
 
-## Install NPM Package
+## Install NPM Packages:
 ```
 $ npm install yelp-fusion --save
 ```
