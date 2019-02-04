@@ -1,9 +1,22 @@
 # Tourism-in-East-Village
 Coding challenge
 
-dependencies:
+## Install NPM Package
+```
+npm install yelp-fusion --save
+```
 
-npm install express
+```
 npm install hbs
+```
+
+```
+npm install express
+```
+
+```
 npm install yelp-fusion
+```
+```
 npm install url-slugs
+```
