@@ -1,5 +1,5 @@
 # Tourism-in-East-Village
-Coding challenge
+Frontend coding challenge for STIT. App for displaying nearby events via Yelp Fusion API.
 
 ## Install NPM Packages:
 ```
