@@ -10,7 +10,10 @@ $ npm install url-slugs
 $ npm install @google/maps
 ```
 
-
+To run: run node in terminal, then open a new window and go to 'localhost:3000/events'
+```
+$ node src/app.js
+```
 
 
 sources:
