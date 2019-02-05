@@ -4,11 +4,16 @@
     {{/if}}
 
     {{#if event}}
-    <h2>{{this.name}}</h2>
+    <h2>{{event.name}}</h2>
         <ul>
-            <li>{{this.time}}</li>
-            <li>{{this.location}}</li>
-            <li>{{this.cost}}</li>
+            <li>{{event.time}}</li>
+            <li>{{event.location}}</li>
+            <li>{{event.cost}}</li>
         </ul>
+    <div id="map"></div>
     {{/if}}
 </div>
+
+<script src="../js/map.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC36GFLupuR4CuD3dSvKKM9LIJ0Pb5hhCA&callback=initMap"
+async defer></script>
